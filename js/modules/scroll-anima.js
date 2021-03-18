@@ -1,5 +1,3 @@
-/* eslint-disable linebreak-style */
-
 import debounce from './debounce.js';
 
 export default class ScrollAnima {
@@ -32,7 +30,6 @@ export default class ScrollAnima {
         item.element.classList.remove('ativo');
       }
     });
-
   }
 
   init() {
